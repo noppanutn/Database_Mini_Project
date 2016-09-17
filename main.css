@@ -1,0 +1,101 @@
+body {
+
+	font-family:sans-serif;
+  color: white;
+}
+
+h1 {
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	font-size: 50px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+
+}
+
+div#wrapper {
+/*	background-color: #F2C063; */
+  background: radial-gradient(farthest-side at 20% 50%,#3c3c3c, black);
+	margin: auto;
+
+	width:1200px;
+  height:900px;
+	border: 1px solid white;
+	border-radius: 10px;
+
+}
+
+div#div_main{
+  position:relative;
+  background-color: black;
+  width: 21%;
+  height: 100%;
+  left:3%;
+  float:left;
+
+}
+
+div#div_menu{
+
+
+}
+
+ul#menu{
+	list-style-type: none;
+	padding:0px;
+	border-top: 1px solid white;
+}
+
+#menu li{
+
+  background: radial-gradient(farthest-side at 10% 10%, #502970,#11011e);
+	text-align:center;
+}
+
+#menu a{
+	display:block;
+	padding:1em;
+	border-bottom: 1px solid white;
+	font-weight:normal;
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  font-size: 16px;
+
+}
+
+#menu a:link, #menu a:visited{
+	text-decoration: none;
+	color: white;
+
+}
+
+#menu a:hover, #menu a:active{
+	color: #ffcc00;
+	font-size: 20px;
+  font-weight: bold;
+
+}
+
+div#div_content{
+  position:relative;
+  background: radial-gradient(farthest-side at 20% 50%,#707070, #424242);
+  color:black;
+  width: 70%;
+  height: 97%;
+  top: 3%;
+  left:27%;
+  margin: 0px;
+  padding: 0px;
+  text-align: left;
+}
+
+div#div_banner{
+  background-color: white;
+  position:absolute;
+  width: 100%;
+  height:21%;
+}
+
+div#div_news{
+  position:absolute;
+  top:22%;
+}
