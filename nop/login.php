@@ -4,10 +4,11 @@ if(isset($_POST['username']) and isset($_POST['password'])){
   echo $_POST['password'];
 }
 ?>
+
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Login</title>
+  <title>LOGIN</title>
     <link rel="stylesheet" type="text/css" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
 </head>
