@@ -4,7 +4,7 @@ require ('function.php');
 if(isset($_POST['username']) and isset($_POST['password'])){
   $_SESSION['user']=$_POST['username'];
   $_SESSION['pass']=$_POST['password'];
-  check($_SESSION['user'],$_SESSION['pass']);
+  check_login($_SESSION['user'],$_SESSION['pass']);
 }
 ?>
 

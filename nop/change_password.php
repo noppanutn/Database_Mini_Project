@@ -6,6 +6,8 @@
     $Npass = $_POST['Npass']; // New password
     $Cpass = $_POST['Cpass']; // Confirmed Password
     newpass($Opass,$Npass,$Cpass); // Call a function from function.php
+    
+    //echo "<h1>password has successfully been changed</h1>";
   }
  ?>
 

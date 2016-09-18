@@ -1,7 +1,7 @@
 <?php
 session_start();
 // check function is used to find a user and password from source.txt
-function check($user,$pass){
+function check_login($user,$pass){
   $myfile = fopen("source.txt","r");
   while(!feof($myfile)){//read until the end of a file
     $break_array = explode(',',fgets($myfile)); /* break a line of text in txt file by ',' into an aray */
@@ -53,8 +53,5 @@ function newpass($Opass,$Npass,$Cpass){
     }
   }
 }
-
-
-
 
  ?>
