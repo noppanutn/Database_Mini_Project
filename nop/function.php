@@ -10,7 +10,11 @@ function check_login($user,$pass){
     if($check_user[1]==$user){
       if($pass==$check_pass[1]){
         echo "login successful";
-        header ('Location: main.html');
+        if($check_user[1]=="admin"){
+          header ('Location: admin.php');
+        } else {
+          header ('Location: main.html');
+        }
       } else {
         echo "wrong password";
       }
@@ -54,4 +58,10 @@ function newpass($Opass,$Npass,$Cpass){
   }
 }
 
+function add_user($user,$pass){
+  $write = fopen("source.txt","a");
+  $info = implode(',',array('user='.$user,'pass='.$pass,));
+  fwrite($write,"\n".$info.",");
+
+}
  ?>

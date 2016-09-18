@@ -1,0 +1,28 @@
+<?php
+require ('function.php');
+
+if(isset($_POST['username']) and isset($_POST['password'])){
+  $_SESSION['user']=$_POST['username'];
+  $_SESSION['pass']=$_POST['password'];
+  add_user($_SESSION['user'],$_SESSION['pass']);
+}
+?>
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>LOGIN</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+</head>
+<body>
+  <h1>Admin management - add users</h1>
+  <p><a href = 'index.html'>go back to homepage</a></p>
+  <form action="admin.php" method="POST">
+    <input type="text" placeholder="Student ID" name="username">
+    <input type="password" placeholder="Password" name="password">
+    <input type="submit">
+  </form>
+
+</body>
+</html>
