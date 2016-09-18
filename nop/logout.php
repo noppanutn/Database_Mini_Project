@@ -1,5 +1,10 @@
 <?php
+  require('function.php');
   echo "<h1>log out successful</h1>";
+
+  session_unset();
+
+  session_destroy();
 
 ?>
 

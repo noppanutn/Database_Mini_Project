@@ -1,12 +1,15 @@
 <?php
   require ('function.php');
   //echo $_SESSION['user'];
+  if(!isset($_SESSION['user'])){
+    die("Not logged in");
+  }
   if(isset($_POST['Opass']) and isset($_POST['Npass']) and isset($_POST['Cpass'])){
     $Opass = $_POST['Opass']; // Old password
     $Npass = $_POST['Npass']; // New password
     $Cpass = $_POST['Cpass']; // Confirmed Password
-    newpass($Opass,$Npass,$Cpass); // Call a function from function.php
-    
+    newpass2($Opass,$Npass,$Cpass); // Call a function from function.php
+
     //echo "<h1>password has successfully been changed</h1>";
   }
  ?>
