@@ -4,7 +4,7 @@ require ('function.php');
 if(isset($_POST['username']) and isset($_POST['password'])){
   $_SESSION['user']=$_POST['username'];
   $_SESSION['pass']=$_POST['password'];
-  check_login2($_SESSION['user'],$_SESSION['pass']);
+  add_user($_SESSION['user'],$_SESSION['pass']);
 }
 ?>
 
@@ -16,8 +16,9 @@ if(isset($_POST['username']) and isset($_POST['password'])){
     <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
 </head>
 <body>
-  <h1><a href="index.html">SIIT</a></h1>
-  <form action="login.php" method="POST">
+  <h1>Admin management - add users</h1>
+  <p><a href = 'index.html'>go back to homepage</a></p>
+  <form action="admin.php" method="POST">
     <input type="text" placeholder="Student ID" name="username">
     <input type="password" placeholder="Password" name="password">
     <input type="submit">

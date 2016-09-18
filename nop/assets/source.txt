@@ -1,0 +1,9 @@
+user=admin,pass=admin,
+user=5722782140,pass=a,perid=1105448789512,nameeng=kornsapol cholpaipal,nameth=กรศพล ชลไพพาล,school= Computer and Communication Technology,campus=The Bangadi Campus,program=Computer Engineering Curriculum(2014),minor=None,level=Bachelor,degreename=Bachelor of Engineering (Computer Engineering),adyear=2014/1 Date 4/6/2014,status=Active,adtype=CGPA,precertificate=3.77,gradfrom=Hogwart,advisor=Doctor Akasa,creditattempt=82,creditsatisfy=82,gpax=4.00,bdate=1/1/1996,bplace=ประเทศไทย,nation=Thai,religion=Buddhism,bloodgroup=AB,address =12/34 Thepkunchorn13 Thepkunchorn Klongneung AMPHUR Klongluang PATHUM THANI 12122 TEL: 02-222-2222,fathername=Daddy,momname=Mother,guardian=Daddy,relation=father,gaddress =12/34 Thepkunchorn13 Thepkunchorn Klongneung AMPHUR Klongluang PATHUM THANI 12122 TEL: 02-222-2222,contactname=Mom,caddress =12/34 Thepkunchorn13 Thepkunchorn Klongneung AMPHUR Klongluang PATHUM THANI 12122 TEL: 02-222-2222,worstatus=,company=CP Fresh Mart,position=Head of CP,workaddress=none,admissiongroup=1109:Computer Engineering,group=none,admissioncon=FIX,phonemobile=0881234567
+user=5722782141,pass=a,
+user=5722782142,pass=pass,
+user=5722782143,pass=word,
+user=a,pass=a,
+user=first,pass=first,
+user=ploy,pass=ploy,
+user=nop,pass=nop,

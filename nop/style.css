@@ -16,7 +16,8 @@ a{
 }
 
 a:hover{
-  color: #404040;
+  color: #999999;
+  /*font-style: italic;*/
 }
 #login{
   margin:10px;

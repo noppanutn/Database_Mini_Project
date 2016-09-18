@@ -19,7 +19,7 @@ div#wrapper {
 	margin: auto;
 
 	width:1200px;
-  height:2000px;
+  height:2400px;
 	border: 1px solid white;
 	border-radius: 10px;
 
@@ -81,7 +81,7 @@ div#div_content{
   color:black;
   width: 70%;
   height: 97%;
-  top: 3%;
+  top: 1%;
   left:27%;
   margin: 0px;
   padding: 0px;
@@ -92,10 +92,11 @@ div#div_banner{
   background-color: white;
   position:absolute;
   width: 100%;
-  height:21%;
+
 }
 
 div#div_news{
   position:absolute;
-  top:22%;
+  left:0px;
+	top:8%;
 }
